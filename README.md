@@ -1,4 +1,4 @@
-# The VBA of Wall Street
+# VBA Wall Street Analysis
 
 <p align="center">
  <img src="Images/stockmarket.jpg" width="400">
