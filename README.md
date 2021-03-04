@@ -1,50 +1,55 @@
-# VBA-challenge
-VBA Homework Assignment for Data Analytics Bootcamp - Trilogy Education, Vanderbilt University
-
 # The VBA of Wall Street
 
-## Background
+<p align="center">
+ <img src="Images/stockmarket.jpg" width="400">
+</p>
 
-You are well on your way to becoming a programmer and Excel master! In this homework assignment you will use VBA scripting to analyze real stock market data. Depending on your comfort level with VBA, you may choose to challenge yourself with a few of the challenge tasks.
+## Summary ##
 
-### Files
+This project used VBA to analyze real stock market data from 2014-2016. Due to the extremely large file size of `Multiple_year_stock_data.xlsx`, the `alphabetical_testing.xlsx` file was used while developing the code. This data set is smaller and allows for faster testing of code (less than 3-5 minutes).
 
-* [Test Data](Resources/alphabetical_testing.xlsx) - Use this while developing your scripts.
+---
 
-* [Stock Data](Resources/Multiple_year_stock_data.xlsx) - Run your scripts on this data to generate the final homework report.
+## Process ##
 
-### Stock market analyst
-
-![stock Market](Images/stockmarket.jpg)
-
-## Instructions
-
-* Create a script that will loop through all the stocks for one year and output the following information.
+* Created a script that loops through all the stocks for one year and output the following information:
 
   * The ticker symbol.
 
-  * Yearly change from opening price at the beginning of a given year to the closing price at the end of that year.
+  * The yearly change from opening price at the beginning of a given year to the closing price at the end of that year.
 
   * The percent change from opening price at the beginning of a given year to the closing price at the end of that year.
 
   * The total stock volume of the stock.
 
-* You should also have conditional formatting that will highlight positive change in green and negative change in red.
+* Use conditional formatting to highlight positive change in green and negative change in red.
 
-* The result should look as follows.
+* Returned the stock with the "Greatest % increase", "Greatest % decrease" and "Greatest total volume" in a separate table on each spreadsheet.
 
-![moderate_solution](Images/moderate_solution.png)
+* Made appropriate adjustments to the VBA script in order for it to run on every worksheet, i.e., every year, just by running the VBA script once.
 
-### CHALLENGES
+* The results looked as follows:
 
-1. Your solution will also be able to return the stock with the "Greatest % increase", "Greatest % decrease" and "Greatest total volume". The solution will look as follows:
+<p align="center">
+ <img src="Images/ScreenShot_2014.jpg" width="800">
+ <img src="Images/ScreenShot_2015.jpg" width="800">
+ <img src="Images/ScreenShot_2016.jpg" width="800">
+</p>
 
-![hard_solution](Images/hard_solution.png)
+---
 
-2. Make the appropriate adjustments to your VBA script that will allow it to run on every worksheet, i.e., every year, just by running the VBA script once.
+## Data Files ##
 
-### Other Considerations
+* [Test Data](Resources/alphabetical_testing.xlsx) - Used while developing VBA scripts.
 
-* Use the sheet `alphabetical_testing.xlsx` while developing your code. This data set is smaller and will allow you to test faster. Your code should run on this file in less than 3-5 minutes.
+* [Stock Data](Resources/Multiple_year_stock_data.xlsx) - Ran final scripts on this data.
 
-* Make sure that the script acts the same on each sheet. The joy of VBA is to take the tediousness out of repetitive task and run over and over again with a click of the button.
+---
+
+## Technologies Used ##
+* Microsoft Excel and VBA
+
+---
+
+## Author ##
+Kiran Rangaraj - LinkedIn: [@Kiran Rangaraj](https://www.linkedin.com/in/kiranrangaraj/)
