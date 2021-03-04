@@ -31,9 +31,9 @@ This project used VBA to analyze real stock market data from 2014-2016. Due to t
 * The results looked as follows:
 
 <p align="center">
- <img src="Images/ScreenShot_2014.png" width="800">
- <img src="Images/ScreenShot_2015.png" width="800">
- <img src="Images/ScreenShot_2016.png" width="800">
+ <img src="Images/ScreenShot_2014.png" width="1000">
+ <img src="Images/ScreenShot_2015.png" width="1000">
+ <img src="Images/ScreenShot_2016.png" width="1000">
 </p>
 
 ---
